@@ -706,3 +706,8 @@ img {
         font-size: 14px;
     }
 }
+/* ОТКЛЮЧАЕМ УВЕЛИЧЕНИЕ ФОТО */
+img {
+    transform: none !important;
+    transition: none !important;
+}
